@@ -1,3 +1,75 @@
+# 🩺 Atlas Santé Morocco 🇲🇦
+
+**Atlas Santé** is an open-source civic-tech platform that enables **real-time citizen-driven auditing** of the Moroccan healthcare system.
+
+---
+
+## 🎯 Purpose
+
+To give every Moroccan citizen the ability to **anonymously report**:
+
+- 🏥 **Healthcare infrastructure issues** (broken scanners, missing doctors, lack of supplies)
+- ⚠️ **Suspected corruption or serious negligence**
+- 🧱 **Underserved or dysfunctional facilities**
+
+All reports are **crowd-validated** and visualized on an **interactive map** using colored status markers:
+🟢 Green = operating normally  
+🟡 Yellow = minor issues detected  
+🔴 Red = critical mass of citizen alerts
+
+---
+
+## 🧱 Tech Stack (v0.1 MVP)
+
+- **Frontend**: HTML / CSS / Vanilla JS
+- **Map**: [Leaflet.js](https://leafletjs.com/) + GeoJSON hospital data
+- **Backend**: Firebase (or local JSON for demo)
+- **Deployment**: Vercel or Firebase Hosting
+- **License**: MIT
+
+---
+
+## 🚀 MVP Scope (v0.1)
+
+- [x] Interactive map of Moroccan hospitals
+- [x] Anonymous report submission form (scanner down, doctor missing, suspected corruption)
+- [x] Storage and basic signal processing
+- [x] Dynamic color coding of map markers based on number of reports
+- [ ] Basic statistics dashboard (coming soon)
+- [ ] Community report validation system (v0.2)
+
+---
+
+## 🤝 Join the Mission
+
+**We're looking for contributors:**
+
+- 🇲🇦 JS/HTML/CSS frontend devs
+- 🧠 UX designers for clean civic UI
+- 🔧 Firebase / Supabase integrators
+- 🩺 Doctors, nurses, health workers
+- 🛰️ OSINT / cartography nerds
+
+Contact me on [Twitter](https://twitter.com/TheThaumazein) , [Proton](TachkhisHealth@proton.me) or open an issue here to join.
+
+---
+
+## 📜 Philosophy
+
+> We do not expose individuals.  
+> We reveal **systemic dysfunction**.  
+> We believe in **crowdsourced truth as a public service.**
+
+---
+
+## 🛡️ License
+
+MIT — free to use, remix, deploy, as long as it helps **save lives and increase visibility**.
+
+
+
+
+
 # Healthcare
 Open source collaborative project to make Moroccan Healthcare system efficient
 
@@ -67,86 +139,6 @@ Contacte-moi en MP sur [Twitter](https://twitter.com/TheThaumazein) ou ouvre une
 ## 🛡️ Licence
 
 MIT — faites ce que vous voulez, tant que vous **aidez à sauver des vies.**
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 🩺 Atlas Santé Morocco 🇲🇦
-
-**Atlas Santé** is an open-source civic-tech platform that enables **real-time citizen-driven auditing** of the Moroccan healthcare system.
-
----
-
-## 🎯 Purpose
-
-To give every Moroccan citizen the ability to **anonymously report**:
-
-- 🏥 **Healthcare infrastructure issues** (broken scanners, missing doctors, lack of supplies)
-- ⚠️ **Suspected corruption or serious negligence**
-- 🧱 **Underserved or dysfunctional facilities**
-
-All reports are **crowd-validated** and visualized on an **interactive map** using colored status markers:
-🟢 Green = operating normally  
-🟡 Yellow = minor issues detected  
-🔴 Red = critical mass of citizen alerts
-
----
-
-## 🧱 Tech Stack (v0.1 MVP)
-
-- **Frontend**: HTML / CSS / Vanilla JS
-- **Map**: [Leaflet.js](https://leafletjs.com/) + GeoJSON hospital data
-- **Backend**: Firebase (or local JSON for demo)
-- **Deployment**: Vercel or Firebase Hosting
-- **License**: MIT
-
----
-
-## 🚀 MVP Scope (v0.1)
-
-- [x] Interactive map of Moroccan hospitals
-- [x] Anonymous report submission form (scanner down, doctor missing, suspected corruption)
-- [x] Storage and basic signal processing
-- [x] Dynamic color coding of map markers based on number of reports
-- [ ] Basic statistics dashboard (coming soon)
-- [ ] Community report validation system (v0.2)
-
----
-
-## 🤝 Join the Mission
-
-**We're looking for contributors:**
-
-- 🇲🇦 JS/HTML/CSS frontend devs
-- 🧠 UX designers for clean civic UI
-- 🔧 Firebase / Supabase integrators
-- 🩺 Doctors, nurses, health workers
-- 🛰️ OSINT / cartography nerds
-
-Contact me on [Twitter](https://twitter.com/TheThaumazein) , [Proton](TachkhisHealth@proton.me) or open an issue here to join.
-
----
-
-## 📜 Philosophy
-
-> We do not expose individuals.  
-> We reveal **systemic dysfunction**.  
-> We believe in **crowdsourced truth as a public service.**
-
----
-
-## 🛡️ License
-
-MIT — free to use, remix, deploy, as long as it helps **save lives and increase visibility**.
 
 
 
